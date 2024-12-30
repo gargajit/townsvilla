@@ -3,7 +3,7 @@ import ejs from "ejs";
 import bodyParser from "body-parser";
 
 const app = express();
-const port = 3000;
+const port = 3002;
 
 const optionsData = {
     school: { id: 1, name: "School", description: "Welcome! This is a place for education" },
