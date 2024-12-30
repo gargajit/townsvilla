@@ -1,0 +1,65 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url("/images/town.png");
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;   
+    text-align: center;
+}
+
+h1 {
+    display: inline;
+    font-size: 5rem;
+    text-align: center;
+    color: #e26e5c;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    gap: 2rem;
+}
+
+button {
+    font-size: 5rem;
+}
+
+.buttons button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.buttons button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+h2 {
+    color: #e26e5c;
+    display: inline;
+    font-size: 3.5rem;
+}
+
+span {
+    font-size:large;
+    color: black;
+}
+
+p {
+    font-size: 2.5rem;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/main.css">
+    <title>TownsVilla</title>
+</head>
+<body>
+    <h1>TownsVilla</h1>
+
+    <form action="/" method="POST" class="buttons">
+        <button type="submit" value="school" name="choice">👨‍🏫</button>
+        <button type="submit" value="hospital" name="choice">👨‍⚕️</button>
+        <button type="submit" value="police" name="choice">👮‍♂️</button>
+    </form>
+
+    <% if (locals.ejsData) { %>
+        <h2><%= ejsData.name %> <span> ID: <%= ejsData.id %></span></h2>
+        <p><%= ejsData.description %></p>
+    <% } else { %>
+        <h2>Choose an option to visit</h2>
+    <% } %>
+    
+</body>
+</html>
