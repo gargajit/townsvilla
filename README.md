@@ -1,5 +1,5 @@
 # TownsVilla
-This is a backend project that renders the relevant data in the JSON based on button that was clicked.
+This is a backend project that renders the data based on the button that was clicked.
 The buttons are a group inside the form written inside the EJS template which renders the HTML dynamically. 
 When one of the button is clicked, the JS finds the choice from the JSON and sends to the EJS file to render the data of the choice.
 
